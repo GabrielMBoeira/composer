@@ -1,7 +1,6 @@
 <?php
 
-
-require_once '../src/vendor/autoload.php';
+require_once '../vendor/autoload.php';
 
 
 $dadosForm = ["nome" => "Gabriel Machado", "email" => "gboeira777@gmail.com"];
@@ -11,10 +10,4 @@ $regras = [
 ];
 
 
-$is_valid = GUMP::is_valid($dadosForm, $regras);
-
-if ($is_valid) {
-    echo "ok";
-} else {
-    echo "erro";
-}
+echo "oi";  
