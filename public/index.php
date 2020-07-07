@@ -10,4 +10,4 @@ $regras = [
 ];
 
 
-echo "oi";  
+echo "oi";  //teste
